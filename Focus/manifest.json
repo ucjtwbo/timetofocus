@@ -1,0 +1,26 @@
+{
+  "name": "Focus",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Notifies how long you switch away from tasks",
+  "homepage_url": "http://www.uclic.ucl.ac.uk/people/judith-borghouts",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Focus!"
+  },
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs",
+    "notifications"
+  ],
+      "web_accessible_resources": [
+    "icon.png",
+    "timer.jpg",
+      "ManicTimeReports.db"]
+}
